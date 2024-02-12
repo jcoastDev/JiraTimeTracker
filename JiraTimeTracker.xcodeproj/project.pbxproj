@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD4994F2B7A8C8F00FD89ED /* JiraTimeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4994E2B7A8C8F00FD89ED /* JiraTimeTrackerApp.swift */; };
+		1AD499512B7A8C8F00FD89ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD499502B7A8C8F00FD89ED /* ContentView.swift */; };
+		1AD499532B7A8C9200FD89ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD499522B7A8C9200FD89ED /* Assets.xcassets */; };
+		1AD499562B7A8C9200FD89ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD499552B7A8C9200FD89ED /* Preview Assets.xcassets */; };
+		1AD499602B7A8C9200FD89ED /* JiraTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4995F2B7A8C9200FD89ED /* JiraTimeTrackerTests.swift */; };
+		1AD4996A2B7A8C9200FD89ED /* JiraTimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD499692B7A8C9200FD89ED /* JiraTimeTrackerUITests.swift */; };
+		1AD4996C2B7A8C9200FD89ED /* JiraTimeTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4996B2B7A8C9200FD89ED /* JiraTimeTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD4995C2B7A8C9200FD89ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD499432B7A8C8F00FD89ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD4994A2B7A8C8F00FD89ED;
+			remoteInfo = JiraTimeTracker;
+		};
+		1AD499662B7A8C9200FD89ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD499432B7A8C8F00FD89ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD4994A2B7A8C8F00FD89ED;
+			remoteInfo = JiraTimeTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD4994B2B7A8C8F00FD89ED /* JiraTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD4994E2B7A8C8F00FD89ED /* JiraTimeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraTimeTrackerApp.swift; sourceTree = "<group>"; };
+		1AD499502B7A8C8F00FD89ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AD499522B7A8C9200FD89ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD499552B7A8C9200FD89ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AD4995B2B7A8C9200FD89ED /* JiraTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiraTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD4995F2B7A8C9200FD89ED /* JiraTimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraTimeTrackerTests.swift; sourceTree = "<group>"; };
+		1AD499652B7A8C9200FD89ED /* JiraTimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiraTimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD499692B7A8C9200FD89ED /* JiraTimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraTimeTrackerUITests.swift; sourceTree = "<group>"; };
+		1AD4996B2B7A8C9200FD89ED /* JiraTimeTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraTimeTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD499482B7A8C8F00FD89ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD499582B7A8C9200FD89ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD499622B7A8C9200FD89ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD499422B7A8C8F00FD89ED = {
+			isa = PBXGroup;
+			children = (
+				1AD4994D2B7A8C8F00FD89ED /* JiraTimeTracker */,
+				1AD4995E2B7A8C9200FD89ED /* JiraTimeTrackerTests */,
+				1AD499682B7A8C9200FD89ED /* JiraTimeTrackerUITests */,
+				1AD4994C2B7A8C8F00FD89ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD4994C2B7A8C8F00FD89ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4994B2B7A8C8F00FD89ED /* JiraTimeTracker.app */,
+				1AD4995B2B7A8C9200FD89ED /* JiraTimeTrackerTests.xctest */,
+				1AD499652B7A8C9200FD89ED /* JiraTimeTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD4994D2B7A8C8F00FD89ED /* JiraTimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4994E2B7A8C8F00FD89ED /* JiraTimeTrackerApp.swift */,
+				1AD499502B7A8C8F00FD89ED /* ContentView.swift */,
+				1AD499522B7A8C9200FD89ED /* Assets.xcassets */,
+				1AD499542B7A8C9200FD89ED /* Preview Content */,
+			);
+			path = JiraTimeTracker;
+			sourceTree = "<group>";
+		};
+		1AD499542B7A8C9200FD89ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AD499552B7A8C9200FD89ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AD4995E2B7A8C9200FD89ED /* JiraTimeTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4995F2B7A8C9200FD89ED /* JiraTimeTrackerTests.swift */,
+			);
+			path = JiraTimeTrackerTests;
+			sourceTree = "<group>";
+		};
+		1AD499682B7A8C9200FD89ED /* JiraTimeTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD499692B7A8C9200FD89ED /* JiraTimeTrackerUITests.swift */,
+				1AD4996B2B7A8C9200FD89ED /* JiraTimeTrackerUITestsLaunchTests.swift */,
+			);
+			path = JiraTimeTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD4994A2B7A8C8F00FD89ED /* JiraTimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD4996F2B7A8C9200FD89ED /* Build configuration list for PBXNativeTarget "JiraTimeTracker" */;
+			buildPhases = (
+				1AD499472B7A8C8F00FD89ED /* Sources */,
+				1AD499482B7A8C8F00FD89ED /* Frameworks */,
+				1AD499492B7A8C8F00FD89ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiraTimeTracker;
+			productName = JiraTimeTracker;
+			productReference = 1AD4994B2B7A8C8F00FD89ED /* JiraTimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD4995A2B7A8C9200FD89ED /* JiraTimeTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD499722B7A8C9200FD89ED /* Build configuration list for PBXNativeTarget "JiraTimeTrackerTests" */;
+			buildPhases = (
+				1AD499572B7A8C9200FD89ED /* Sources */,
+				1AD499582B7A8C9200FD89ED /* Frameworks */,
+				1AD499592B7A8C9200FD89ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD4995D2B7A8C9200FD89ED /* PBXTargetDependency */,
+			);
+			name = JiraTimeTrackerTests;
+			productName = JiraTimeTrackerTests;
+			productReference = 1AD4995B2B7A8C9200FD89ED /* JiraTimeTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AD499642B7A8C9200FD89ED /* JiraTimeTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD499752B7A8C9200FD89ED /* Build configuration list for PBXNativeTarget "JiraTimeTrackerUITests" */;
+			buildPhases = (
+				1AD499612B7A8C9200FD89ED /* Sources */,
+				1AD499622B7A8C9200FD89ED /* Frameworks */,
+				1AD499632B7A8C9200FD89ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD499672B7A8C9200FD89ED /* PBXTargetDependency */,
+			);
+			name = JiraTimeTrackerUITests;
+			productName = JiraTimeTrackerUITests;
+			productReference = 1AD499652B7A8C9200FD89ED /* JiraTimeTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD499432B7A8C8F00FD89ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1AD4994A2B7A8C8F00FD89ED = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1AD4995A2B7A8C9200FD89ED = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1AD4994A2B7A8C8F00FD89ED;
+					};
+					1AD499642B7A8C9200FD89ED = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1AD4994A2B7A8C8F00FD89ED;
+					};
+				};
+			};
+			buildConfigurationList = 1AD499462B7A8C8F00FD89ED /* Build configuration list for PBXProject "JiraTimeTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD499422B7A8C8F00FD89ED;
+			productRefGroup = 1AD4994C2B7A8C8F00FD89ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD4994A2B7A8C8F00FD89ED /* JiraTimeTracker */,
+				1AD4995A2B7A8C9200FD89ED /* JiraTimeTrackerTests */,
+				1AD499642B7A8C9200FD89ED /* JiraTimeTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD499492B7A8C8F00FD89ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD499562B7A8C9200FD89ED /* Preview Assets.xcassets in Resources */,
+				1AD499532B7A8C9200FD89ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD499592B7A8C9200FD89ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD499632B7A8C9200FD89ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD499472B7A8C8F00FD89ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD499512B7A8C8F00FD89ED /* ContentView.swift in Sources */,
+				1AD4994F2B7A8C8F00FD89ED /* JiraTimeTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD499572B7A8C9200FD89ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD499602B7A8C9200FD89ED /* JiraTimeTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD499612B7A8C9200FD89ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD4996C2B7A8C9200FD89ED /* JiraTimeTrackerUITestsLaunchTests.swift in Sources */,
+				1AD4996A2B7A8C9200FD89ED /* JiraTimeTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD4995D2B7A8C9200FD89ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD4994A2B7A8C8F00FD89ED /* JiraTimeTracker */;
+			targetProxy = 1AD4995C2B7A8C9200FD89ED /* PBXContainerItemProxy */;
+		};
+		1AD499672B7A8C9200FD89ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD4994A2B7A8C8F00FD89ED /* JiraTimeTracker */;
+			targetProxy = 1AD499662B7A8C9200FD89ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AD4996D2B7A8C9200FD89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AD4996E2B7A8C9200FD89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD499702B7A8C9200FD89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JiraTimeTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jcoastDev.JiraTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD499712B7A8C9200FD89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JiraTimeTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jcoastDev.JiraTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD499732B7A8C9200FD89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jcoastDev.JiraTimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiraTimeTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JiraTimeTracker";
+			};
+			name = Debug;
+		};
+		1AD499742B7A8C9200FD89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jcoastDev.JiraTimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiraTimeTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JiraTimeTracker";
+			};
+			name = Release;
+		};
+		1AD499762B7A8C9200FD89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jcoastDev.JiraTimeTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiraTimeTracker;
+			};
+			name = Debug;
+		};
+		1AD499772B7A8C9200FD89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jcoastDev.JiraTimeTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiraTimeTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD499462B7A8C8F00FD89ED /* Build configuration list for PBXProject "JiraTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD4996D2B7A8C9200FD89ED /* Debug */,
+				1AD4996E2B7A8C9200FD89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD4996F2B7A8C9200FD89ED /* Build configuration list for PBXNativeTarget "JiraTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD499702B7A8C9200FD89ED /* Debug */,
+				1AD499712B7A8C9200FD89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD499722B7A8C9200FD89ED /* Build configuration list for PBXNativeTarget "JiraTimeTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD499732B7A8C9200FD89ED /* Debug */,
+				1AD499742B7A8C9200FD89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD499752B7A8C9200FD89ED /* Build configuration list for PBXNativeTarget "JiraTimeTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD499762B7A8C9200FD89ED /* Debug */,
+				1AD499772B7A8C9200FD89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD499432B7A8C8F00FD89ED /* Project object */;
+}
